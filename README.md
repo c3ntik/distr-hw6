@@ -88,9 +88,9 @@ Repo-filename: /etc/yum.repos.d/otus.repo
 
 ```
 
-cat >> /etc/yum.repos.d/otus.repo << EOF
+  `cat >> /etc/yum.repos.d/otus.repo << EOF`
 
-wget http://www.percona.com/downloads/percona-release/redhat/0.1-6/percona-release-0.1-6.noarch.rpm -O /usr/share/nginx/html/repo/percona-release-0.1-6.noarch.rpm
+  `wget http://www.percona.com/downloads/percona-release/redhat/0.1-6/percona-release-0.1-6.noarch.rpm -O /usr/share/nginx/html/repo/percona-release-0.1-     6.noarch.rpm`
 
 #При добавлении пакетов в репу, выполняем команду
 
